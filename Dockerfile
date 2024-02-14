@@ -2,7 +2,7 @@
 FROM node:14
 
 # Set working directory inside the container
-WORKDIR /usr/src/app
+WORKDIR /mongodb/connect
 
 # Copy package.json and package-lock.json to the working directory
 COPY package*.json ./
