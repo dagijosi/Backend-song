@@ -8,8 +8,8 @@ services:
     ports:
       - '3000:3000'
     environment:
-      - PORT=5000
-      - MONGODB_URI=<YOUR_MONGODB_URI>
+      - PORT=8080
+      - MONGODB_URL=mongodb://mongo:27017/SongSchema
     depends_on:
       - mongo
 
